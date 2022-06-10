@@ -10,7 +10,7 @@ const Page2 = () => {
     <div className='upper_par d-flex justify-content-between'>
         <div className='upper_first mx-5 my-3'>
             <div>Person Name</div>
-            <p>27h @ chances</p>
+            <p>29h @ chances</p>
         </div>
         <div className='mx-3 mt-3'><BsThreeDotsVertical/></div>
     </div>

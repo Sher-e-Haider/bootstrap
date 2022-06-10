@@ -9,7 +9,7 @@ const Page1 = () => {
           <div className=' main rounded pb-2 mt-5'>
        <div className='datas'>
          <div className='passion'>
-             <div className='info'>182cms</div>
+             <div className='info'>186cms</div>
            <div className='info'>Drink</div>
            <div className='info'>Adventure</div>
            <div className='info'>Riding</div>
