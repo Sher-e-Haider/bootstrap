@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import Chats from './routerComponents/Chats';
+import Near from './routerComponents/Near';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <BrowserRouter>
+   
+   <Routes>
+     <Route path='/' exact element={<App/>} />
+     <Route path='/chat' element={<Chats/>} />
+     <Route path='/near' element={<Near/>} />
+   </Routes>
+ </BrowserRouter> 
+   
   </React.StrictMode>
 );
 
