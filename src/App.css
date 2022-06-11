@@ -250,7 +250,7 @@ h5,p{
 
 @media screen and (max-width:790px){
   .kalam{
-    right: 150px;
+    right: 186px;
    
   }
   .box{
@@ -265,7 +265,7 @@ h5,p{
     width:70%;
   }
   input{
-    min-width:60%
+    min-width:53%
   }
   .sam,.switch{
     display:none;
@@ -277,6 +277,10 @@ h5,p{
   .menu{
     display:none;
   }
+  /* .navb{
+    width:400px;
+   
+  } */
 }
 
 @media screen and (max-width:390px){
@@ -285,6 +289,7 @@ h5,p{
     width:420px;
    
   }
+  
 }
 
 
@@ -332,6 +337,15 @@ h5,p{
     display:none;
   }
 }
+/* @media screen and (max-width:376px){
+  .kalam{
+    right: -10px;
+    border: 1px solid red;
+  }
+  .box{
+    max-width :800%;
+  }
+} */
 @media screen and (max-width:550px){
  
   /* .car{
@@ -354,11 +368,11 @@ h5,p{
    
   }
   .kalam{
-    right: 80px;
+    right: 60px;
    
   }
   input{
-    min-width:85%
+    min-width:80%
   }
   .social{
     display:none;
